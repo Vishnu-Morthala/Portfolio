@@ -66,7 +66,7 @@ What This Project Demonstrates:
   certificates: [
     {
       id: '1',
-      name: 'Google AI Essentials',
+      name: 'AIML VIRTUAL INTERNSHIP',
       issuer: 'Google',
       date: '2024',
       credentialUrl: 'https://drive.google.com/file/d/1adLyVEzEQpTgIXg_vQ9D3ye1MCJpBwcP/view?usp=sharing',
