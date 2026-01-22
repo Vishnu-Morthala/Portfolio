@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Code2, Menu } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -50,8 +50,13 @@ const NavLink = ({ href, children, onClick, isHomePage }: { href: string; childr
 
 export function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [isClient, setIsClient] = useState(false);
   const pathname = usePathname();
   const isHomePage = pathname === '/';
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -66,7 +71,7 @@ export function Header() {
           ))}
         </nav>
         <div className="md:hidden">
-           <Sheet open={isMobileMenuOpen} onOpenChange={setMobileMenuOpen}>
+           {isClient && <Sheet open={isMobileMenuOpen} onOpenChange={setMobileMenuOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon">
                 <Menu className="h-6 w-6" />
@@ -82,7 +87,7 @@ export function Header() {
                 </nav>
               </div>
             </SheetContent>
-          </Sheet>
+          </Sheet>}
         </div>
       </div>
     </header>

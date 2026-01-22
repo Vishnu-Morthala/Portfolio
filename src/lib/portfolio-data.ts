@@ -82,7 +82,7 @@ What This Project Demonstrates:
     {
       id: '1',
       title: 'NCC "C" Certificate',
-      description: 'Awarded the National Cadet Corps (NCC) "C" Certificate, the highest level of certification, recognizing exceptional training in discipline, leadership, and community service.',
+      description: 'Actively participated in the National Cadet Corps (NCC), gaining hands-on training in discipline, leadership, teamwork, and social responsibility. Developed qualities such as confidence, time management, and commitment, along with basic training in drill, physical fitness, and community service.',
       date: '2023',
       imageUrl: getPlaceholderImage('achievement-1'),
       certificateUrl: undefined,
