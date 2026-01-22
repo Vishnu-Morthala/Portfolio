@@ -78,4 +78,14 @@ What This Project Demonstrates:
       date: '2022',
     },
   ],
+  achievements: [
+    {
+      id: '1',
+      title: 'NCC "C" Certificate',
+      description: 'Awarded the National Cadet Corps (NCC) "C" Certificate, the highest level of certification, recognizing exceptional training in discipline, leadership, and community service.',
+      date: '2023',
+      imageUrl: getPlaceholderImage('achievement-1'),
+      certificateUrl: undefined,
+    },
+  ],
 };

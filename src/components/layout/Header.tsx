@@ -1,20 +1,24 @@
 'use client';
 import { useState } from 'react';
-import { Code2, Menu, X } from 'lucide-react';
+import { Code2, Menu } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { usePathname } from 'next/navigation';
 
 const navItems = [
   { href: '#about', label: 'About' },
   { href: '#skills', label: 'Skills' },
   { href: '#projects', label: 'Projects' },
   { href: '#certificates', label: 'Certificates' },
+  { href: '/achievements', label: 'Achievements' },
   { href: '#contact', label: 'Contact' },
 ];
 
-const NavLink = ({ href, children, onClick }: { href: string; children: React.ReactNode, onClick?: () => void }) => {
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+const NavLink = ({ href, children, onClick, isHomePage }: { href: string; children: React.ReactNode, onClick?: () => void, isHomePage: boolean }) => {
+  const isScrollLink = href.startsWith('#');
+
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     const targetId = href.substring(1);
     const targetElement = document.getElementById(targetId);
@@ -27,15 +31,27 @@ const NavLink = ({ href, children, onClick }: { href: string; children: React.Re
     if (onClick) onClick();
   };
 
+  if (isHomePage && isScrollLink) {
+    return (
+      <a href={href} onClick={handleScroll} className="text-lg font-medium text-foreground/80 transition-colors hover:text-foreground md:text-sm">
+        {children}
+      </a>
+    );
+  }
+  
+  // Handle page links or scroll links from other pages
   return (
-    <a href={href} onClick={handleClick} className="text-lg font-medium text-foreground/80 transition-colors hover:text-foreground md:text-sm">
+    <Link href={isScrollLink ? `/${href}` : href} onClick={onClick} className="text-lg font-medium text-foreground/80 transition-colors hover:text-foreground md:text-sm">
       {children}
-    </a>
+    </Link>
   );
 };
 
+
 export function Header() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
+  const isHomePage = pathname === '/';
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -46,7 +62,7 @@ export function Header() {
         </Link>
         <nav className="hidden items-center space-x-6 md:flex">
           {navItems.map(item => (
-            <NavLink key={item.href} href={item.href}>{item.label}</NavLink>
+            <NavLink key={item.href} href={item.href} isHomePage={isHomePage}>{item.label}</NavLink>
           ))}
         </nav>
         <div className="md:hidden">
@@ -61,7 +77,7 @@ export function Header() {
                <div className="flex flex-col items-center justify-center h-full">
                 <nav className="flex flex-col items-center space-y-8">
                     {navItems.map(item => (
-                    <NavLink key={item.href} href={item.href} onClick={() => setMobileMenuOpen(false)}>{item.label}</NavLink>
+                    <NavLink key={item.href} href={item.href} isHomePage={isHomePage} onClick={() => setMobileMenuOpen(false)}>{item.label}</NavLink>
                     ))}
                 </nav>
               </div>
