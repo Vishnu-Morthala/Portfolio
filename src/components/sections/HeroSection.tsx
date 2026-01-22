@@ -1,0 +1,49 @@
+import Image from 'next/image';
+import { Button } from '@/components/ui/button';
+import { Download, Send } from 'lucide-react';
+import type { AboutData } from '@/lib/types';
+
+export function HeroSection({ data }: { data: AboutData }) {
+  const handleContactClick = () => {
+    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+  };
+  
+  return (
+    <section id="about" className="w-full py-20 md:py-32 lg:py-40">
+      <div className="container grid items-center gap-10 px-4 md:px-6 lg:grid-cols-2 lg:gap-16">
+        <div className="order-2 lg:order-1 flex items-center justify-center">
+          <Image
+            src={data.profilePictureUrl}
+            width={450}
+            height={450}
+            alt={data.name}
+            className="rounded-full object-cover aspect-square shadow-2xl shadow-primary/20"
+            data-ai-hint="profile picture"
+            priority
+          />
+        </div>
+        <div className="order-1 lg:order-2 space-y-4 text-center lg:text-left">
+          <div className="space-y-2">
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none font-headline">
+              {data.name}
+            </h1>
+            <h2 className="text-2xl font-medium text-primary tracking-wide">{data.headline}</h2>
+            <p className="max-w-[700px] mx-auto lg:mx-0 text-muted-foreground md:text-xl">
+              {data.introduction}
+            </p>
+          </div>
+          <div className="flex flex-col gap-3 min-[400px]:flex-row justify-center lg:justify-start pt-4">
+            <Button size="lg" onClick={handleContactClick}>
+              <Send className="mr-2 h-4 w-4" />
+              Contact Me
+            </Button>
+            <Button size="lg" variant="outline">
+              <Download className="mr-2 h-4 w-4" />
+              Download CV
+            </Button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
