@@ -17,47 +17,46 @@ export const portfolioData: PortfolioData = {
     contactEmail: 'hello@example.com',
   },
   skills: [
-    { id: '1', name: 'React', category: 'technical' },
-    { id: '2', name: 'Next.js', category: 'technical' },
-    { id: '3', name: 'TypeScript', category: 'technical' },
-    { id: '4', name: 'Node.js', category: 'technical' },
-    { id: '5', name: 'Genkit', category: 'technical' },
-    { id: '6', name: 'Firebase', category: 'technical' },
-    { id: '7', name: 'Tailwind CSS', category: 'technical' },
+    { id: '1', name: 'C', category: 'technical' },
+    { id: '2', name: 'Python', category: 'technical' },
+    { id: '3', name: 'HTML', category: 'technical' },
+    { id: '4', name: 'JavaScript', category: 'technical' },
+    { id: '5', name: 'CSS', category: 'technical' },
     { id: '8', name: 'Communication', category: 'soft' },
     { id: '9', name: 'Teamwork', category: 'soft' },
     { id: '10', name: 'Problem Solving', category: 'soft' },
+    { id: '11', name: 'VS Code', category: 'tool' },
+    { id: '12', name: 'Git', category: 'tool' },
+    { id: '13', name: 'GitHub', category: 'tool' },
   ],
   projects: [
     {
       id: '1',
-      title: 'AI-Powered Portfolio Generator',
-      description:
-        'A web app that uses generative AI to help users create a professional portfolio website in minutes. Built with Next.js, Genkit, and Firebase.',
-      technologies: ['Next.js', 'React', 'Genkit', 'Firebase'],
+      title: 'Tourist Website – Full-Stack Travel Platform',
+      description: `A complete tourist and travel website designed to present destinations, travel information, and user-friendly navigation using a full-stack approach.
+
+Key Responsibilities & Features:
+• Designed responsive frontend user interface
+• Integrated backend logic for dynamic content
+• Structured project for scalability
+• Deployed on cloud hosting
+
+Technologies Used:
+HTML, CSS, JavaScript, Backend integration, Cloud hosting
+
+What This Project Demonstrates:
+• Full-stack understanding
+• Frontend–backend integration
+• Deployment and production mindset`,
+      technologies: [
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'Backend integration',
+        'Cloud hosting',
+      ],
       imageUrl: getPlaceholderImage('project-1'),
-      liveUrl: '#',
-      repoUrl: '#',
-    },
-    {
-      id: '2',
-      title: 'E-commerce Platform',
-      description:
-        'A full-featured e-commerce platform with a custom CMS, payment integration, and a recommendation engine. Increased sales by 20% in the first quarter.',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-      imageUrl: getPlaceholderImage('project-2'),
-      liveUrl: '#',
-      repoUrl: '#',
-    },
-    {
-      id: '3',
-      title: 'Open Source Contributor',
-      description:
-        'Actively contributed to several open-source projects, including documentation, bug fixes, and new features for a popular UI library.',
-      technologies: ['TypeScript', 'Open Source', 'Community'],
-      imageUrl: getPlaceholderImage('project-3'),
-      liveUrl: '#',
-      repoUrl: '#',
+      liveUrl: 'https://wanderlyy-updated-vs-code-heo87dbe8.vercel.app/',
     },
   ],
   certificates: [

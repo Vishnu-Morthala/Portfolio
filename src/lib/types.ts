@@ -16,7 +16,7 @@ export type AboutData = {
 export type Skill = {
   id: string;
   name: string;
-  category: 'technical' | 'soft';
+  category: 'technical' | 'soft' | 'tool';
 };
 
 export type Project = {

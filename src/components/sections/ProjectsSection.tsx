@@ -37,7 +37,7 @@ export function ProjectsSection({ data }: { data: Project[] }) {
                   ))}
                 </div>
                 <CardContent className="p-0 flex-1">
-                  <p className="text-muted-foreground line-clamp-3">{project.description}</p>
+                  <p className="text-muted-foreground whitespace-pre-line">{project.description}</p>
                 </CardContent>
                 <CardFooter className="p-0 pt-6 space-x-2">
                   {project.liveUrl && (
