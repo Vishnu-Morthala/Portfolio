@@ -26,6 +26,9 @@ export const portfolioData: PortfolioData = {
     { id: '8', name: 'Communication', category: 'soft' },
     { id: '9', name: 'Teamwork', category: 'soft' },
     { id: '10', name: 'Problem Solving', category: 'soft' },
+    { id: '11', name: 'VS Code', category: 'tool' },
+    { id: '12', name: 'Git', category: 'tool' },
+    { id: '13', name: 'GitHub', category: 'tool' },
   ],
   projects: [
     {
@@ -65,15 +68,14 @@ What This Project Demonstrates:
       id: '1',
       name: 'Google AI Essentials',
       issuer: 'Google',
-      date: '2023',
-      credentialUrl: '#',
+      date: '2024',
+      credentialUrl: 'https://drive.google.com/file/d/1adLyVEzEQpTgIXg_vQ9D3ye1MCJpBwcP/view?usp=sharing',
     },
     {
       id: '2',
       name: 'Full-Stack Web Development',
       issuer: 'Coursera',
       date: '2022',
-      credentialUrl: '#',
     },
   ],
 };
