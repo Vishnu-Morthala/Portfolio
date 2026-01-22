@@ -8,7 +8,7 @@ export const portfolioData: PortfolioData = {
     headline: 'Full-Stack Developer & AI Enthusiast',
     introduction:
       "I'm a passionate developer with a love for building beautiful and functional web applications. I'm currently exploring the world of AI and how it can be used to create amazing user experiences.",
-    profilePictureUrl: getPlaceholderImage('profile'),
+    profilePictureUrl: 'https://drive.google.com/uc?export=view&id=1Ds49vtqNh8TTRFav9pucsvHPnKMGnfaO',
     socials: {
       github: 'https://github.com',
       linkedin: 'https://www.linkedin.com/in/morthala-vishnu',
