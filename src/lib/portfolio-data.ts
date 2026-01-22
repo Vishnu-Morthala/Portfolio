@@ -26,38 +26,38 @@ export const portfolioData: PortfolioData = {
     { id: '8', name: 'Communication', category: 'soft' },
     { id: '9', name: 'Teamwork', category: 'soft' },
     { id: '10', name: 'Problem Solving', category: 'soft' },
-    { id: '11', name: 'VS Code', category: 'tool' },
-    { id: '12', name: 'Git', category: 'tool' },
-    { id: '13', name: 'GitHub', category: 'tool' },
   ],
   projects: [
     {
       id: '1',
-      title: 'Tourist Website – Full-Stack Travel Platform',
-      description: `A complete tourist and travel website designed to present destinations, travel information, and user-friendly navigation using a full-stack approach.
+      title: 'MovieStream – Movie Streaming Web Platform',
+      description: `A movie-streaming-style web application inspired by OTT platforms, focusing on clean UI, categorization, and interactive user experience.
 
 Key Responsibilities & Features:
-• Designed responsive frontend user interface
-• Integrated backend logic for dynamic content
-• Structured project for scalability
-• Deployed on cloud hosting
-
-Technologies Used:
-HTML, CSS, JavaScript, Backend integration, Cloud hosting
+• Designed OTT-style interface
+• Implemented category-based movie browsing
+• Built interactive hover effects
+• Ensured responsive design
 
 What This Project Demonstrates:
-• Full-stack understanding
-• Frontend–backend integration
-• Deployment and production mindset`,
-      technologies: [
-        'HTML',
-        'CSS',
-        'JavaScript',
-        'Backend integration',
-        'Cloud hosting',
-      ],
+• UI/UX design skills
+• Frontend development capability
+• Attention to user experience`,
+      technologies: ['HTML', 'CSS', 'JavaScript'],
       imageUrl: getPlaceholderImage('project-1'),
-      liveUrl: 'https://wanderlyy-updated-vs-code-heo87dbe8.vercel.app/',
+      liveUrl: 'https://saikapil-v.github.io/MOVIESTREAM/',
+    },
+    {
+      id: '2',
+      title: 'Car Rental System',
+      description: `A backend-focused project to manage a car rental service. It includes features for vehicle inventory management, customer reservations, and processing rentals. The system is built with a focus on creating a scalable and efficient backend architecture.
+
+What This Project Demonstrates:
+• Backend architecture design
+• Database management
+• REST API development`,
+      technologies: ['Python', 'Flask', 'SQLAlchemy', 'REST APIs'],
+      imageUrl: getPlaceholderImage('project-2'),
     },
   ],
   certificates: [
