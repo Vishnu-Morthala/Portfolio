@@ -11,6 +11,7 @@ export type AboutData = {
   profilePictureUrl: string;
   socials: SocialLinks;
   contactEmail: string;
+  contactPhone?: string;
 };
 
 export type Skill = {

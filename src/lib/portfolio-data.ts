@@ -4,17 +4,18 @@ import { getPlaceholderImage } from './utils';
 export const portfolioData: PortfolioData = {
   id: '1',
   about: {
-    name: 'Alex Doe',
+    name: 'Vishnu Morthala',
     headline: 'Full-Stack Developer & AI Enthusiast',
     introduction:
       "I'm a passionate developer with a love for building beautiful and functional web applications. I'm currently exploring the world of AI and how it can be used to create amazing user experiences.",
     profilePictureUrl: getPlaceholderImage('profile'),
     socials: {
       github: 'https://github.com',
-      linkedin: 'https://linkedin.com',
+      linkedin: 'https://www.linkedin.com/in/morthala-vishnu',
       twitter: 'https://twitter.com',
     },
-    contactEmail: 'hello@example.com',
+    contactEmail: 'vishnumorthala2003@gmail.com',
+    contactPhone: '7997558445',
   },
   skills: [
     { id: '1', name: 'C', category: 'technical' },
