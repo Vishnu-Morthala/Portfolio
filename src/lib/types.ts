@@ -1,8 +1,16 @@
+export type SocialLinks = {
+  github?: string;
+  linkedin?: string;
+  twitter?: string;
+};
+
 export type AboutData = {
   name: string;
   headline: string;
   introduction: string;
   profilePictureUrl: string;
+  socials: SocialLinks;
+  contactEmail: string;
 };
 
 export type Skill = {

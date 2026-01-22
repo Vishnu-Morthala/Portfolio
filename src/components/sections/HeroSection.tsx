@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Download, Send } from 'lucide-react';
+import { Github, Linkedin, Send, Twitter } from 'lucide-react';
 import type { AboutData } from '@/lib/types';
+import Link from 'next/link';
 
 export function HeroSection({ data }: { data: AboutData }) {
   const handleContactClick = () => {
@@ -11,16 +12,39 @@ export function HeroSection({ data }: { data: AboutData }) {
   return (
     <section id="about" className="w-full py-20 md:py-32 lg:py-40">
       <div className="container grid items-center gap-10 px-4 md:px-6 lg:grid-cols-2 lg:gap-16">
-        <div className="order-2 lg:order-1 flex items-center justify-center">
+        <div className="order-2 lg:order-1 flex flex-col items-center justify-center gap-6">
           <Image
             src={data.profilePictureUrl}
-            width={450}
-            height={450}
+            width={400}
+            height={400}
             alt={data.name}
             className="rounded-full object-cover aspect-square shadow-2xl shadow-primary/20"
             data-ai-hint="profile picture"
             priority
           />
+           <div className="flex items-center justify-center lg:justify-start gap-4">
+              {data.socials.github && (
+                <Link href={data.socials.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <Button variant="outline" size="icon">
+                    <Github className="h-5 w-5"/>
+                  </Button>
+                </Link>
+              )}
+              {data.socials.linkedin && (
+                <Link href={data.socials.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <Button variant="outline" size="icon">
+                    <Linkedin className="h-5 w-5"/>
+                  </Button>
+                </Link>
+              )}
+              {data.socials.twitter && (
+                <Link href={data.socials.twitter} target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                  <Button variant="outline" size="icon">
+                    <Twitter className="h-5 w-5"/>
+                  </Button>
+                </Link>
+              )}
+            </div>
         </div>
         <div className="order-1 lg:order-2 space-y-4 text-center lg:text-left">
           <div className="space-y-2">
@@ -36,10 +60,6 @@ export function HeroSection({ data }: { data: AboutData }) {
             <Button size="lg" onClick={handleContactClick}>
               <Send className="mr-2 h-4 w-4" />
               Contact Me
-            </Button>
-            <Button size="lg" variant="outline">
-              <Download className="mr-2 h-4 w-4" />
-              Download CV
             </Button>
           </div>
         </div>
