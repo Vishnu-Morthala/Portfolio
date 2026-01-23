@@ -61,7 +61,7 @@ What This Project Demonstrates:
 • REST API development`,
       technologies: ['Python', 'Flask', 'SQLAlchemy', 'REST APIs'],
       imageUrl: getPlaceholderImage('project-2'),
-      repoUrl: 'https://portfolio-cd1p3zi08-2303a51232s-projects.vercel.app/',
+      liveUrl: 'https://portfolio-cd1p3zi08-2303a51232s-projects.vercel.app/',
     },
   ],
   certificates: [
