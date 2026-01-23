@@ -78,14 +78,4 @@ What This Project Demonstrates:
       date: '2022',
     },
   ],
-  achievements: [
-    {
-      id: '1',
-      title: 'NCC Certificate',
-      description: 'Actively participated in the National Cadet Corps (NCC), gaining hands-on training in discipline, leadership, teamwork, and social responsibility. Developed qualities such as confidence, time management, and commitment, along with basic training in drill, physical fitness, and community service.',
-      date: '2023',
-      imageUrl: 'https://drive.google.com/uc?export=view&id=1W4myC45dvPwAqU16_Qu2OKI5Zr5ZrJ_c',
-      certificateUrl: undefined,
-    },
-  ],
 };
