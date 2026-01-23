@@ -18,7 +18,7 @@ export function ProjectsSection({ data }: { data: Project[] }) {
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {data.map(project => (
-            <Card key={project.id} className="flex flex-col overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+            <Card key={project.id} className="flex flex-col overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-primary">
               <CardHeader className="p-0">
                 <Image
                   src={project.imageUrl}

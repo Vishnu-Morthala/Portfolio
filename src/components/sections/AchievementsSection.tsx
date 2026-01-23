@@ -19,7 +19,7 @@ export function AchievementsSection({ data }: { data: Achievement[] }) {
         </div>
         <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {data.map((achievement) => (
-            <Card key={achievement.id} className="flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+            <Card key={achievement.id} className="flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:border-primary">
               <CardHeader className="p-0">
                 <Image
                     src={achievement.imageUrl}

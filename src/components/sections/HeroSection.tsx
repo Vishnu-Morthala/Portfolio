@@ -20,7 +20,7 @@ export function HeroSection({ data }: { data: AboutData }) {
             width={400}
             height={400}
             alt={data.name}
-            className="rounded-full object-cover aspect-square shadow-2xl shadow-primary/20"
+            className="rounded-full object-cover aspect-square shadow-2xl shadow-primary/20 border-4 border-primary/10"
             data-ai-hint="profile picture"
             priority
           />
