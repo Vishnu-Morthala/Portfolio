@@ -86,6 +86,14 @@ What This Project Demonstrates:
       description:
         'Actively participated in the National Cadet Corps (NCC), gaining hands-on training in discipline, leadership, teamwork, and social responsibility. Developed qualities such as confidence, time management, and commitment, along with basic training in drill, physical fitness, and community service.',
       imageUrl: 'https://drive.google.com/uc?export=view&id=1W4myC45dvPwAqU16_Qu2OKI5Zr5ZrJ_c',
+      credentialUrl: 'https://drive.google.com/uc?export=view&id=1W4myC45dvPwAqU16_Qu2OKI5Zr5ZrJ_c',
+    },
+    {
+      id: '2',
+      title: 'AICTE EDUSKILLS VIRTUAL INTERNSHIP',
+      description: 'Completed a virtual internship focused on AI and Machine Learning, gaining practical experience and skills in the field.',
+      imageUrl: 'https://drive.google.com/uc?export=view&id=1adLyVEzEQpTgIXg_vQ9D3ye1MCJpBwcP',
+      credentialUrl: 'https://drive.google.com/file/d/1adLyVEzEQpTgIXg_vQ9D3ye1MCJpBwcP/view?usp=sharing',
     },
   ],
 };
