@@ -4,6 +4,7 @@ import { HeroSection } from '@/components/sections/HeroSection';
 import { SkillsSection } from '@/components/sections/SkillsSection';
 import { ProjectsSection } from '@/components/sections/ProjectsSection';
 import { CertificatesSection } from '@/components/sections/CertificatesSection';
+import { AchievementsSection } from '@/components/sections/AchievementsSection';
 import { ContactSection } from '@/components/sections/ContactSection';
 import { getPortfolioData } from '@/lib/data';
 
@@ -20,6 +21,7 @@ export default async function Home() {
         <SkillsSection data={portfolioData.skills} />
         <ProjectsSection data={portfolioData.projects} />
         <CertificatesSection data={portfolioData.certificates} />
+        <AchievementsSection data={portfolioData.achievements} />
         <ContactSection data={portfolioData.about} />
       </main>
       <Footer data={portfolioData.about} />

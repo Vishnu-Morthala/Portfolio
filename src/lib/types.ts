@@ -38,10 +38,19 @@ export type Certificate = {
   credentialUrl?: string;
 };
 
+export type Achievement = {
+  id: string;
+  title: string;
+  description: string;
+  imageUrl: string;
+  credentialUrl?: string;
+};
+
 export type PortfolioData = {
   id: string;
   about: AboutData;
   skills: Skill[];
   projects: Project[];
   certificates: Certificate[];
+  achievements: Achievement[];
 };
