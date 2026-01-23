@@ -33,21 +33,21 @@ export function ContactSection({ data }: { data: AboutData }) {
               {data.socials.github && (
                 <Link href={data.socials.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Button variant="outline" size="icon">
-                    <Github className="h-6 w-6"/>
+                    <Github className="h-6 w-6 text-muted-foreground transition-colors hover:text-foreground"/>
                   </Button>
                 </Link>
               )}
               {data.socials.linkedin && (
                 <Link href={data.socials.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Button variant="outline" size="icon">
-                    <Linkedin className="h-6 w-6"/>
+                    <Linkedin className="h-6 w-6 text-muted-foreground transition-colors hover:text-foreground"/>
                   </Button>
                 </Link>
               )}
               {data.socials.twitter && (
                 <Link href={data.socials.twitter} target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                   <Button variant="outline" size="icon">
-                    <Twitter className="h-6 w-6"/>
+                    <Twitter className="h-6 w-6 text-muted-foreground transition-colors hover:text-foreground"/>
                   </Button>
                 </Link>
               )}
