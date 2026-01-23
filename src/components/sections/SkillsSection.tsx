@@ -24,7 +24,7 @@ export function SkillsSection({ data }: { data: Skill[] }) {
           </p>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <Card className="transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+          <Card className="transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
             <CardHeader className="flex flex-row items-center gap-4">
               {categoryIcons.technical}
               <CardTitle className="text-2xl font-headline">Technical Skills</CardTitle>
@@ -35,7 +35,7 @@ export function SkillsSection({ data }: { data: Skill[] }) {
               ))}
             </CardContent>
           </Card>
-          <Card className="transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+          <Card className="transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
             <CardHeader className="flex flex-row items-center gap-4">
               {categoryIcons.soft}
               <CardTitle className="text-2xl font-headline">Soft Skills</CardTitle>
@@ -46,7 +46,7 @@ export function SkillsSection({ data }: { data: Skill[] }) {
               ))}
             </CardContent>
           </Card>
-          <Card className="transform transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+          <Card className="transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
             <CardHeader className="flex flex-row items-center gap-4">
               {categoryIcons.tool}
               <CardTitle className="text-2xl font-headline">Tools</CardTitle>

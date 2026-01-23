@@ -16,7 +16,7 @@ export function CertificatesSection({ data }: { data: Certificate[] }) {
         </div>
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {data.map((cert) => (
-            <Card key={cert.id} className="flex flex-col">
+            <Card key={cert.id} className="flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
               <CardHeader className="flex flex-row items-start gap-4 pb-4">
                 <div className="bg-primary/10 p-3 rounded-full">
                   <Award className="h-6 w-6 text-primary" />
