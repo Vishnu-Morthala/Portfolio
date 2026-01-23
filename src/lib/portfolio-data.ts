@@ -61,6 +61,7 @@ What This Project Demonstrates:
 • REST API development`,
       technologies: ['Python', 'Flask', 'SQLAlchemy', 'REST APIs'],
       imageUrl: getPlaceholderImage('project-2'),
+      repoUrl: 'https://portfolio-cd1p3zi08-2303a51232s-projects.vercel.app/',
     },
   ],
   certificates: [
@@ -84,7 +85,7 @@ What This Project Demonstrates:
       title: 'NCC Certificate',
       description:
         'Actively participated in the National Cadet Corps (NCC), gaining hands-on training in discipline, leadership, teamwork, and social responsibility. Developed qualities such as confidence, time management, and commitment, along with basic training in drill, physical fitness, and community service.',
-      imageUrl: getPlaceholderImage('achievement-1'),
+      imageUrl: 'https://drive.google.com/uc?export=view&id=1W4myC45dvPwAqU16_Qu2OKI5Zr5ZrJ_c',
     },
   ],
 };
