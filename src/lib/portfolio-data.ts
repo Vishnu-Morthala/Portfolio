@@ -62,6 +62,7 @@ What This Project Demonstrates:
       technologies: ['Python', 'Flask', 'SQLAlchemy', 'REST APIs'],
       imageUrl: getPlaceholderImage('project-2'),
       liveUrl: 'https://portfolio-cd1p3zi08-2303a51232s-projects.vercel.app/',
+      repoUrl: 'https://portfolio-cd1p3zi08-2303a51232s-projects.vercel.app/',
     },
   ],
   certificates: [
@@ -92,7 +93,7 @@ What This Project Demonstrates:
       id: '2',
       title: 'AICTE EDUSKILLS VIRTUAL INTERNSHIP',
       description: 'Completed a virtual internship focused on AI and Machine Learning, gaining practical experience and skills in the field.',
-      imageUrl: 'https://drive.google.com/uc?export=view&id=1adLyVEzEQpTgIXg_vQ9D3ye1MCJpBwcP',
+      imageUrl: 'https://drive.google.com/uc?export=view&id=1APWonXYjBtqr7L1KEYYgx0pKpqidKoX0',
       credentialUrl: 'https://drive.google.com/file/d/1adLyVEzEQpTgIXg_vQ9D3ye1MCJpBwcP/view?usp=sharing',
     },
   ],
