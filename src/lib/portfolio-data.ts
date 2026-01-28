@@ -73,6 +73,14 @@ What This Project Demonstrates:
       date: '2023',
       credentialUrl: 'https://drive.google.com/file/d/15nCKpmi5SUnSt-87sbMlGgsLpJfXPWnJ/view?usp=sharing',
       description: 'I successfully completed the Database Management System – Part 1 course from Infosys Springboard. This course helped me understand core DBMS concepts, relational databases, and SQL fundamentals. It was a great learning experience that strengthened my technical foundation and analytical thinking.',
+    },
+    {
+      id: '2',
+      name: 'AWS Academy Cloud Foundations',
+      issuer: 'AWS Academy',
+      date: '2023',
+      credentialUrl: 'https://drive.google.com/file/d/1I5YYaE1PlIARXKflOyg4pjSjafg0F_ov/view?usp=sharing',
+      description: 'Hands-on experience in cloud computing and web application development gained through projects and certified AWS training. Familiar with building, deploying, and securing cloud-based applications while applying core programming and problem-solving skills. Continuously learning new technologies and improving practical knowledge to deliver efficient and reliable solutions.',
     }
   ],
   achievements: [
