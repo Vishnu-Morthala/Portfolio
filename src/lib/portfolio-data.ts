@@ -96,12 +96,5 @@ What This Project Demonstrates:
       imageUrl: 'https://drive.google.com/uc?export=view&id=1APWonXYjBtqr7L1KEYYgx0pKpqidKoX0',
       credentialUrl: 'https://drive.google.com/file/d/1adLyVEzEQpTgIXg_vQ9D3ye1MCJpBwcP/view?usp=sharing',
     },
-    {
-      id: '3',
-      title: 'NCC B Certificate',
-      description: 'Awarded the NCC \'B\' Certificate, demonstrating a higher level of training and commitment in the National Cadet Corps.',
-      imageUrl: 'https://drive.google.com/uc?export=view&id=11LA6Rhl3mWqAhmQKs4BnNjuJcMcK41c9',
-      credentialUrl: 'https://drive.google.com/uc?export=view&id=11LA6Rhl3mWqAhmQKs4BnNjuJcMcK41c9',
-    },
   ],
 };
