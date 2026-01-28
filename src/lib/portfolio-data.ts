@@ -68,19 +68,6 @@ What This Project Demonstrates:
   certificates: [
     {
       id: '1',
-      name: 'AIML VIRTUAL INTERNSHIP',
-      issuer: 'Google',
-      date: '2024',
-      credentialUrl: 'https://drive.google.com/file/d/1adLyVEzEQpTgIXg_vQ9D3ye1MCJpBwcP/view?usp=sharing',
-    },
-    {
-      id: '2',
-      name: 'Full-Stack Web Development',
-      issuer: 'Coursera',
-      date: '2022',
-    },
-    {
-      id: '3',
       name: 'Database Management System – Part 1',
       issuer: 'Infosys Springboard',
       date: '2023',
