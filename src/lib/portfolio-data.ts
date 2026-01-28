@@ -4,7 +4,7 @@ import { getPlaceholderImage } from './utils';
 export const portfolioData: PortfolioData = {
   id: '1',
   about: {
-    name: 'Vishnu Morthala',
+    name: 'VISHNU MORTHALA',
     headline: 'Full-Stack Developer & AI Enthusiast',
     introduction:
       "I'm a passionate developer with a love for building beautiful and functional web applications. I'm currently exploring the world of AI and how it can be used to create amazing user experiences.",
@@ -22,13 +22,13 @@ export const portfolioData: PortfolioData = {
     { id: '2', name: 'Python', category: 'technical' },
     { id: '3', name: 'HTML', category: 'technical' },
     { id: '4', name: 'JavaScript', category: 'technical' },
-    { id: '5', name: 'CSS', category: 'technical' },
     { id: '8', name: 'Communication', category: 'soft' },
     { id: '9', name: 'Teamwork', category: 'soft' },
     { id: '10', name: 'Problem Solving', category: 'soft' },
     { id: '11', name: 'VS Code', category: 'tool' },
     { id: '12', name: 'Git', category: 'tool' },
     { id: '13', name: 'GitHub', category: 'tool' },
+    { id: '14', name: 'GeeksForGeeks', category: 'tool' },
   ],
   projects: [
     {

@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Vishnu Morthala - Portfolio',
+  title: 'VISHNU MORTHALA - Portfolio',
   description: 'Full-Stack Developer & AI Enthusiast',
 };
 
