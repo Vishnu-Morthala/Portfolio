@@ -64,6 +64,14 @@ What This Project Demonstrates:
       liveUrl: 'https://portfolio-cd1p3zi08-2303a51232s-projects.vercel.app/',
       repoUrl: 'https://portfolio-cd1p3zi08-2303a51232s-projects.vercel.app/',
     },
+    {
+      id: '3',
+      title: 'HOSPITAL INTERFACE',
+      description: 'A user-friendly interface for hospital management, allowing staff to manage patient records, appointments, and billing with ease. This project focuses on creating a clean, intuitive, and efficient user experience for healthcare professionals.',
+      technologies: ['React', 'Next.js', 'Tailwind CSS'],
+      imageUrl: getPlaceholderImage('project-3'),
+      liveUrl: 'https://vishnu01.netlify.app/',
+    },
   ],
   certificates: [
     {
