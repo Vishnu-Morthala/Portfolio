@@ -16,7 +16,7 @@ export type AboutData = {
 
 export type Skill = {
   id: string;
-  name: string;
+  name:string;
   category: 'technical' | 'soft' | 'tool';
 };
 
@@ -36,6 +36,7 @@ export type Certificate = {
   issuer: string;
   date: string;
   credentialUrl?: string;
+  description?: string;
 };
 
 export type Achievement = {

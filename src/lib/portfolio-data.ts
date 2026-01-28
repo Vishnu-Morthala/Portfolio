@@ -79,6 +79,14 @@ What This Project Demonstrates:
       issuer: 'Coursera',
       date: '2022',
     },
+    {
+      id: '3',
+      name: 'Database Management System – Part 1',
+      issuer: 'Infosys Springboard',
+      date: '2023',
+      credentialUrl: 'https://drive.google.com/file/d/15nCKpmi5SUnSt-87sbMlGgsLpJfXPWnJ/view?usp=sharing',
+      description: 'I successfully completed the Database Management System – Part 1 course from Infosys Springboard. This course helped me understand core DBMS concepts, relational databases, and SQL fundamentals. It was a great learning experience that strengthened my technical foundation and analytical thinking.',
+    }
   ],
   achievements: [
     {

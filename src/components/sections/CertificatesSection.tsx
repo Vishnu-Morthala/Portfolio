@@ -26,8 +26,11 @@ export function CertificatesSection({ data }: { data: Certificate[] }) {
                   <CardDescription className="mt-1">Issued by {cert.issuer}</CardDescription>
                 </div>
               </CardHeader>
-              <CardContent className="flex-1">
+              <CardContent className="flex-1 space-y-2">
                 <p className="text-sm text-muted-foreground">Completed: {cert.date}</p>
+                {cert.description && (
+                  <p className="text-sm text-muted-foreground whitespace-pre-line">{cert.description}</p>
+                )}
               </CardContent>
               {cert.credentialUrl && (
                 <CardFooter>
