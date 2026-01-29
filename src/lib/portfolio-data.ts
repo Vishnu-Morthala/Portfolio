@@ -89,6 +89,14 @@ What This Project Demonstrates:
       date: '2023',
       credentialUrl: 'https://drive.google.com/file/d/1I5YYaE1PlIARXKflOyg4pjSjafg0F_ov/view?usp=sharing',
       description: 'Hands-on experience in cloud computing and web application development gained through projects and certified AWS training. Familiar with building, deploying, and securing cloud-based applications while applying core programming and problem-solving skills. Continuously learning new technologies and improving practical knowledge to deliver efficient and reliable solutions.',
+    },
+    {
+      id: '3',
+      name: 'HACKER RANK',
+      issuer: 'HackerRank',
+      date: '2024',
+      credentialUrl: 'https://drive.google.com/file/d/1cvqUfP3fOtvRIBniTpozaEQGoJY3hVbI/view?usp=sharing',
+      description: 'Certified in C# (Basic) by HackerRank, validating hands-on experience in writing efficient C# code, logical thinking, and solving programming challenges',
     }
   ],
   achievements: [
