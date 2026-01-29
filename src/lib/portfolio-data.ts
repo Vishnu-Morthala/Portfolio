@@ -114,7 +114,15 @@ What This Project Demonstrates:
       date: '2024',
       credentialUrl: 'https://drive.google.com/file/d/1pR1qxj0uv2jjXOnu_Kf3-YSaaLfrvGU3/view?usp=sharing',
       description: 'Actively participated in government-led awareness initiatives such as the My Bharat App campaign and Drug Awareness programs. Through these activities, I contributed to promoting digital government services, encouraging youth participation, and spreading awareness about the harmful effects of drug abuse. These programs helped me develop a sense of social responsibility, teamwork, and effective communication with the public.',
-    }
+    },
+    {
+      id: '6',
+      name: 'Discrete Mathematics – Part 1 & 2',
+      issuer: 'Great Learning Academy',
+      date: '2024',
+      credentialUrl: 'https://drive.google.com/file/d/1E8ng_Gybd9_VgQ0JqXwd2OUVbRqqcZiz/view?usp=sharing',
+      description: 'Successfully completed the Discrete Mathematics – Part 1 and Part 2 course offered by Great Learning Academy, strengthening my understanding of mathematical foundations essential for computer science and problem-solving.',
+    },
   ],
   achievements: [
     {
