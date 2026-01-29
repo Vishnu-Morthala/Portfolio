@@ -33,25 +33,6 @@ export const portfolioData: PortfolioData = {
   ],
   projects: [
     {
-      id: '1',
-      title: 'MovieStream – Movie Streaming Web Platform',
-      description: `A movie-streaming-style web application inspired by OTT platforms, focusing on clean UI, categorization, and interactive user experience.
-
-Key Responsibilities & Features:
-• Designed OTT-style interface
-• Implemented category-based movie browsing
-• Built interactive hover effects
-• Ensured responsive design
-
-What This Project Demonstrates:
-• UI/UX design skills
-• Frontend development capability
-• Attention to user experience`,
-      technologies: ['HTML', 'CSS', 'JavaScript'],
-      imageUrl: getPlaceholderImage('project-1'),
-      liveUrl: 'https://saikapil-v.github.io/MOVIESTREAM/',
-    },
-    {
       id: '2',
       title: 'Car Rental System',
       description: `A backend-focused project to manage a car rental service. It includes features for vehicle inventory management, customer reservations, and processing rentals. The system is built with a focus on creating a scalable and efficient backend architecture.
@@ -63,7 +44,6 @@ What This Project Demonstrates:
       technologies: ['Python', 'Flask', 'SQLAlchemy', 'REST APIs'],
       imageUrl: getPlaceholderImage('project-2'),
       liveUrl: 'https://portfolio-cd1p3zi08-2303a51232s-projects.vercel.app/',
-      repoUrl: 'https://portfolio-cd1p3zi08-2303a51232s-projects.vercel.app/',
     },
     {
       id: '3',
