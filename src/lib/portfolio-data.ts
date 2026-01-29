@@ -106,6 +106,14 @@ What This Project Demonstrates:
       date: '2024',
       credentialUrl: 'https://drive.google.com/file/d/1vngofbk7Uvb11YiJLlH7H9ipdb4srGY6/view?usp=sharing',
       description: 'Successfully completed CS402: Computer Communications and Networks, gaining foundational knowledge of networking concepts, protocols, and data communication systems.',
+    },
+    {
+      id: '5',
+      name: 'Participation in Government Awareness Initiatives',
+      issuer: 'Government of India',
+      date: '2024',
+      credentialUrl: 'https://drive.google.com/file/d/1pR1qxj0uv2jjXOnu_Kf3-YSaaLfrvGU3/view?usp=sharing',
+      description: 'Actively participated in government-led awareness initiatives such as the My Bharat App campaign and Drug Awareness programs. Through these activities, I contributed to promoting digital government services, encouraging youth participation, and spreading awareness about the harmful effects of drug abuse. These programs helped me develop a sense of social responsibility, teamwork, and effective communication with the public.',
     }
   ],
   achievements: [
