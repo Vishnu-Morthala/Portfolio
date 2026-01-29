@@ -109,7 +109,7 @@ What This Project Demonstrates:
     },
     {
       id: '5',
-      name: 'Participation in Government Awareness Initiatives',
+      name: 'Government Certifications & Initiatives',
       issuer: 'Government of India',
       date: '2024',
       credentialUrl: 'https://drive.google.com/file/d/1pR1qxj0uv2jjXOnu_Kf3-YSaaLfrvGU3/view?usp=sharing',
