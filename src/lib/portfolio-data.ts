@@ -29,6 +29,7 @@ export const portfolioData: PortfolioData = {
     { id: '12', name: 'Git', category: 'tool' },
     { id: '13', name: 'GitHub', category: 'tool' },
     { id: '14', name: 'GeeksForGeeks', category: 'tool' },
+    { id: '15', name: 'Great Learning', category: 'tool' },
   ],
   projects: [
     {
