@@ -97,6 +97,14 @@ What This Project Demonstrates:
       date: '2024',
       credentialUrl: 'https://drive.google.com/file/d/1cvqUfP3fOtvRIBniTpozaEQGoJY3hVbI/view?usp=sharing',
       description: 'Certified in C# (Basic) by HackerRank, validating hands-on experience in writing efficient C# code, logical thinking, and solving programming challenges',
+    },
+    {
+      id: '4',
+      name: 'CS402: Computer Communications and Networks',
+      issuer: 'University Coursework',
+      date: '2024',
+      credentialUrl: 'https://drive.google.com/file/d/1vngofbk7Uvb11YiJLlH7H9ipdb4srGY6/view?usp=sharing',
+      description: 'Successfully completed CS402: Computer Communications and Networks, gaining foundational knowledge of networking concepts, protocols, and data communication systems.',
     }
   ],
   achievements: [
